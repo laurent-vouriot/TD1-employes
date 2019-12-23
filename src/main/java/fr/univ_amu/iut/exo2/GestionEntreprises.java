@@ -2,7 +2,6 @@ package fr.univ_amu.iut.exo2;
 
 import java.time.LocalDate;
 import java.time.Month;
-import fr.univ_amu.iut.exo2.Ordinaire;
 
 
 /**
