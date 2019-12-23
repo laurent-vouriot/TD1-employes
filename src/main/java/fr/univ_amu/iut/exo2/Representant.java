@@ -14,6 +14,10 @@ public class Representant extends Commercial{
     @Override
     public double salaireBrut() {
         Ordinaire o = new Ordinaire(this.getNumEmp(),this.getNumSecu(),this.getNom(),this.getPrenom(),this.getEchelon(),this.getDateNais(),this.getDateEmbauche());
+
+        o.setBase(this.getBase());
+        o.setnbHeures(this.getNbHeures());
+
         return o.salaireBrut();
     }
 }//Representant

@@ -13,13 +13,5 @@ public class Vendeur extends Commercial{
         super(numEmp, numSecu, nom, prenom, echelon, dateNais, dateEmbauche);
     }//Vendeur()
 
-
-
-    // super appel la classe parent mais laquelle ?
-
-    @Override
-    public double salaireBrut() {
-        return super.salaireBrut();
-    }//salaireBrut()
 }//Vendeur
 

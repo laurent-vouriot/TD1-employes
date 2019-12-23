@@ -8,7 +8,7 @@ import java.time.LocalDate;
  * @class Commercial extends Employe
  * @brief classe fille de employé, un commercial
  */
-public class Commercial  extends Employe{
+public abstract class  Commercial  extends Employe{
 
     private double chiffreAffaires;
     private double tauxCommission;
@@ -25,8 +25,11 @@ public class Commercial  extends Employe{
 
     @Override
     public double salaireBrut() {
-        System.out.println("salaire brut Commercial");
+
        return this.getBase() + this.chiffreAffaires * this.tauxCommission + 100;
+
     }//salaireBrut()
 
+    public double getChiffreAffaires() {return chiffreAffaires;}
+    public double getTauxCommission()  {return tauxCommission;}
 }//Commerical
