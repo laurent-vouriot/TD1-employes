@@ -6,6 +6,10 @@ import java.time.LocalDate;
 import java.time.Month;
 import java.util.PriorityQueue;
 
+
+/**
+ * TD1 EX0 4 SERIALISATION
+ */
 public class GestionEntreprises {
 
 
