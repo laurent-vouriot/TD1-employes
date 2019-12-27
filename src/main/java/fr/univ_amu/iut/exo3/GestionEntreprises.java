@@ -24,7 +24,7 @@ public class GestionEntreprises {
         listeOrdre.add(emp3);
         listeOrdre.add(emp4);
 
-        for(Employe e : listeOrdre) {System.out.println(e.toString());}
+        //for(Employe e : listeOrdre) {System.out.println(e.toString());}
 
         Entreprise ent1 = new Entreprise("maBoiteInfo");
         ent1.embaucher(emp2);
@@ -33,7 +33,6 @@ public class GestionEntreprises {
         ent1.embaucher(emp1);
 
         ent1.distribuerBonus(2000);
-
 
         System.out.println(ent1.toString());
     }//main()
